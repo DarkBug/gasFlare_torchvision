@@ -135,7 +135,7 @@ print(f"TOTAL:: >>Training took {hours:02d}:{minutes:02d}:{seconds:02d}")
         total_loss += losses.item()
 
         if torch.isnan(losses) or torch.isinf(losses):
-            print("⚠️ NaN or Inf detected in loss!")
+            print("NaN or Inf detected in loss!")
             exit()
 
         if batch_idx % 10 == 0:
@@ -143,3 +143,4 @@ print(f"TOTAL:: >>Training took {hours:02d}:{minutes:02d}:{seconds:02d}")
 
     print(f"Epoch {epoch+1} - Total Loss: {total_loss:.4f}")
 """
+
