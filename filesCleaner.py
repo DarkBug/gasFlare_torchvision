@@ -2,7 +2,7 @@ import os
 import shutil
 
 # Current folder where mixed images+masks are
-input_folder = r"C:/Users/Amirhossein/AppData/Local/Programs/Python/Python311/Lib/site-packages/P_exercise/gasFlare/gas3_torchvision/Gas-flare-monitoring.v2i.png-mask-semantic/Ttest"  # <--- change this
+input_folder = r"gasFlare/gas3_torchvision/Gas-flare-monitoring.v2i.png-mask-semantic/Ttest"
 
 # New folders
 output_imgs_folder = os.path.join(input_folder, "Timg")
