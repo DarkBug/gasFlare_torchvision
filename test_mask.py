@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 
 # === YOUR MASK FOLDER PATH ===
-mask_dir = "C:/Users/Amirhossein/AppData/Local/Programs/Python/Python311/Lib/site-packages/P_exercise/gasFlare/gas3_torchvision/masks"
+mask_dir = "gasFlare/gas3_torchvision/masks"
 
 # === List all mask files ===
 sample_files = [f for f in os.listdir(mask_dir) if f.endswith('.png') or f.endswith('.jpg')]
