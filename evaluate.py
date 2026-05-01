@@ -10,9 +10,9 @@ import matplotlib.pyplot as plt
 
 # -------- paths -------------------------------------------------------------
 weights_path   = "model10.pth"                              # <- model weights
-val_img_dir    = r"C:/Users/Amirhossein/AppData/Local/Programs/Python/Python311/Lib/site-packages/P_exercise/gasFlare/gas3_torchvision/test_imgs"                                          # <- images to test
-val_mask_dir   = r"C:/Users/Amirhossein/AppData/Local/Programs/Python/Python311/Lib/site-packages/P_exercise/gasFlare/gas3_torchvision/test_masks"                  # <- optional GT masks
-val_json_path  = r"C:/Users/Amirhossein/AppData/Local/Programs/Python/Python311/Lib/site-packages/P_exercise/gasFlare/gas3_torchvision/ann/_annotations_fixed_test.coco.json"
+val_img_dir    = r"gasFlare/gas3_torchvision/test_imgs"     # <- images to test
+val_mask_dir   = r"gasFlare/gas3_torchvision/test_masks"    # <- optional GT masks
+val_json_path  = r"gasFlare/gas3_torchvision/ann/_annotations_fixed_test.coco.json"
 out_dir        = "outputs10"                                # <- where to write results
 os.makedirs(out_dir, exist_ok=True)
 
