@@ -9,9 +9,9 @@ import numpy as np
 import time
 
 # ==== Set dataset paths ====
-train_img_dir = "C:/Users/Amirhossein/AppData/Local/Programs/Python/Python311/Lib/site-packages/P_exercise/gasFlare/gas3_torchvision/imgs"
-train_mask_dir = "C:/Users/Amirhossein/AppData/Local/Programs/Python/Python311/Lib/site-packages/P_exercise/gasFlare/gas3_torchvision/masks"
-train_ann_file = "C:/Users/Amirhossein/AppData/Local/Programs/Python/Python311/Lib/site-packages/P_exercise/gasFlare/gas3_torchvision/ann/_annotations_fixed_train.coco.json"
+train_img_dir = "gasFlare/gas3_torchvision/imgs"
+train_mask_dir = "gasFlare/gas3_torchvision/masks"
+train_ann_file = "gasFlare/gas3_torchvision/ann/_annotations_fixed_train.coco.json"
 
 sample_files = [f for f in os.listdir(train_mask_dir) if f.endswith('.png') or f.endswith('.jpg')]
 
