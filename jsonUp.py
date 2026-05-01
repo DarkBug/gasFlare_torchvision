@@ -1,13 +1,13 @@
 import json
 import os
 
-json_path = "C:/Users/Amirhossein/AppData/Local/Programs/Python/Python311/Lib/site-packages/P_exercise/gasFlare/gas3_torchvision/Gas-flare-monitoring.v2i.png-mask-semantic/Ttest/_annotations.coco.json"
-output_path = "C:/Users/Amirhossein/AppData/Local/Programs/Python/Python311/Lib/site-packages/P_exercise/gasFlare/gas3_torchvision/Gas-flare-monitoring.v2i.png-mask-semantic/Ttest/_annotations_fixed.coco.json"
+json_path = "gasFlare/gas3_torchvision/Gas-flare-monitoring.v2i.png-mask-semantic/Ttest/_annotations.coco.json"
+output_path = "gasFlare/gas3_torchvision/Gas-flare-monitoring.v2i.png-mask-semantic/Ttest/_annotations_fixed.coco.json"
 
 
 # ==== PATHS YOU MUST EDIT ====
-#json_path = "C:/your/path/to/train/_annotations.coco.json"  # <-- put your real JSON path here
-#output_path = "C:/your/path/to/train/_annotations_fixed.coco.json"  # <-- save to new file
+#json_path = "/your/path/to/train/_annotations.coco.json"  # <-- put your real JSON path here
+#output_path = "/your/path/to/train/_annotations_fixed.coco.json"  # <-- save to new file
 # =============================
 
 # Load the original JSON
